@@ -11,7 +11,6 @@
   inputs.src-openssl_evp-master.ref   = "refs/heads/master";
   inputs.src-openssl_evp-master.owner = "cowboy-coders";
   inputs.src-openssl_evp-master.repo  = "nim-openssl-evp";
-  inputs.src-openssl_evp-master.dir   = "";
   inputs.src-openssl_evp-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
